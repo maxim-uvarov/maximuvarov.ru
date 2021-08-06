@@ -17,7 +17,7 @@ export default function GlobalStyle() {
 
         body {
           font-size: 16px;
-          font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          font-family: 'PT Mono', 'Source Code Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
             Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           background-color: ${theme.colors.background};
           text-rendering: optimizelegibility;
@@ -27,6 +27,7 @@ export default function GlobalStyle() {
 
         h1 {
           font-size: 32px;
+          font-family: 'Source Code Pro';
           color: ${theme.colors.title};
           font-weight: bold;
           margin-bottom: 24px;

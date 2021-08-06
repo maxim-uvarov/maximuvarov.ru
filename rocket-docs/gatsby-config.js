@@ -22,14 +22,14 @@ module.exports = {
         baseDir: `examples/gatsby-theme-docs`,
       },
     },    
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Source Code Pro', 'PT Mono']
-        }
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: {
+    //     google: {
+    //       families: ['Source Code Pro', 'PT Mono']
+    //     }
+    //   }
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
