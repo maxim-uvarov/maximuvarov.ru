@@ -3,7 +3,7 @@ module.exports = {
     siteTitle: `Сайт Максима Уварова`,
     defaultTitle: `Сайт Максима Уварова`,
     siteTitleShort: `Maxim Uvarov's site`,
-    siteDescription: `Мысли для общества на тему аналитики, медитации и другого`,
+    siteDescription: `Мысли на тему аналитики, медитации и другого`,
     siteUrl: `https://maximuvarov.ru`,
     siteAuthor: `@40_02`,
     siteImage: `/banner.png`,
@@ -20,8 +20,6 @@ module.exports = {
         docsPath: `src/docs`,
         repositoryUrl: `https://github.com/maxim-uvarov/maximuvarov.ru`,
         baseDir: `rocket-docs`,
-        // https://github.com/rocketseat/gatsby-themes/tree/main/examples/gatsby-theme-docs/src/docs/index.md
-        // https://github.com/maxim-uvarov/maximuvarov.ru/tree/main/tree/main/rocket-docs/src/docs/src/docs/index.md
       },
     },    
     // {

@@ -1,8 +1,7 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-
+# - label: 'Introduction'
+#   link: ''
 - label: 'My projects'
   link: '/projects'
 # - label: 'Getting started'
@@ -15,6 +14,10 @@
       link: '/usage/navigation'
     - label: 'Shadowing'
       link: '/usage/shadowing'
+- label: Медитация
+  items:
+    - label: Моя история
+      link: /meditation
 - label: More
   items:
     - label: FAQ
