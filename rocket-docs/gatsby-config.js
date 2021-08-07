@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
+    siteTitle: `Сайт Максима Уварова`,
+    defaultTitle: `Сайт Максима Уварова`,
+    siteTitleShort: `Maxim Uvarov's site`,
+    siteDescription: `Мысли для общества на тему аналитики, медитации и другого`,
     siteUrl: `https://maximuvarov.ru`,
-    siteAuthor: `@rocketseat`,
+    siteAuthor: `@40_02`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
+    siteLanguage: `ru`,
     themeColor: `#8257E6`,
     basePath: `/`,
   },
@@ -18,8 +18,10 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
+        repositoryUrl: `https://github.com/maxim-uvarov/maximuvarov.ru`,
+        baseDir: `rocket-docs`,
+        // https://github.com/rocketseat/gatsby-themes/tree/main/examples/gatsby-theme-docs/src/docs/index.md
+        // https://github.com/maxim-uvarov/maximuvarov.ru/tree/main/tree/main/rocket-docs/src/docs/src/docs/index.md
       },
     },    
     // {
