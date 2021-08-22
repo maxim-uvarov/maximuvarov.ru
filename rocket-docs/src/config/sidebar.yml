@@ -1,23 +1,23 @@
 # Sidebar navigation
 
-# - label: 'Introduction'
-#   link: ''
-- label: 'My projects'
-  link: '/projects'
+# - label: 'Главная'
+#   link: '/'
+- label: 'Список активностей'
+  link: '/digest'
 # - label: 'Getting started'
 #   link: '/getting-started'
-- label: Usage
-  items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
-- label: Медитация
-  items:
-    - label: Моя история
-      link: /meditation
+# - label: Usage
+#   items:
+#     - label: 'Creating docs'
+#       link: '/usage/creating-docs'
+#     - label: 'Navigation'
+#       link: '/usage/navigation'
+#     - label: 'Shadowing'
+#       link: '/usage/shadowing'
+# - label: Медитация
+#   items:
+#     - label: Моя история
+#       link: /meditation
 - label: More
   items:
     - label: FAQ
