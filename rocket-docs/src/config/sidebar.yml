@@ -1,7 +1,7 @@
 # Sidebar navigation
 
-# - label: 'Главная'
-#   link: ''
+- label: 'Главная'
+  link: '/'
 - label: 'Список активностей'
   link: '/digest'
 # - label: 'Getting started'
@@ -18,9 +18,9 @@
 #   items:
 #     - label: Моя история
 #       link: /meditation
-- label: More
-  items:
-    - label: FAQ
-      link: /faq
-    - label: 'Телеграм канал'
-      link: https://t.me/MaximUvarov
+# - label: More
+#   items:
+    # - label: FAQ
+    #   link: /faq
+- label: 'Телеграм канал'
+  link: https://t.me/MaximUvarov
