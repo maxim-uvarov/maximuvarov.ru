@@ -1,5 +1,7 @@
 import React from 'react';
 import { useTheme, Global, css } from '@emotion/react';
+import "@fontsource/source-code-pro"; // Defaults to weight 400.
+import "@fontsource/pt-mono"; // Defaults to weight 400.
 
 export default function GlobalStyle() {
   const theme = useTheme();
