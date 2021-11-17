@@ -1,7 +1,7 @@
 # Sidebar navigation
 
-- label: 'Главная'
-  link: '/'
+- label: 'Обо мне'
+  link: '/about'
 - label: 'Список активностей'
   link: '/digest'
 # - label: 'Getting started'
