@@ -18,6 +18,7 @@
     "gatsby-plugin-offline": "^4.0.0",
     "gatsby-plugin-remove-trailing-slashes": "^3.0.0",
     "gatsby-plugin-sitemap": "^3.0.0",
+    "gh-pages": "^3.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -30,6 +31,7 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   }
 }
