@@ -10,7 +10,7 @@
     "@fontsource/pt-mono": "^4.5.0",
     "@fontsource/source-code-pro": "^4.5.0",
     "@rocketseat/gatsby-theme-docs": "^2.4.0",
-    "gatsby": "^3.0.4",
+    "gatsby": "^3.14.6",
     "gatsby-plugin-canonical-urls": "^3.0.0",
     "gatsby-plugin-google-analytics": "^3.0.0",
     "gatsby-plugin-google-tagmanager": "^4.2.0",
