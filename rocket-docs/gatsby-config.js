@@ -83,7 +83,7 @@ module.exports = {
     resolve: `gatsby-plugin-react-helmet-canonical-urls`,
     options: {
       siteUrl: `https://maximuvarov.ru`,
-      noTrailingSlash: `false`,
+      noTrailingSlash: `true`,
     },
   },
     // `gatsby-plugin-remove-trailing-slashes`,
