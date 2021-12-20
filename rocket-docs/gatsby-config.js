@@ -78,13 +78,21 @@ module.exports = {
       enableWebVitalsTracking: true,
     },
   },
-    `gatsby-plugin-remove-trailing-slashes`,
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://maximuvarov.ru`,
-      },
+  `gatsby-plugin-react-helmet`,
+  {
+    resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+    options: {
+      siteUrl: `https://maximuvarov.ru`,
+      noTrailingSlash: `false`,
     },
+  },
+    // `gatsby-plugin-remove-trailing-slashes`,
+    // {
+    //   resolve: `gatsby-plugin-canonical-urls`,
+    //   options: {
+    //     siteUrl: `https://maximuvarov.ru`,
+    //   },
+    // },
     `gatsby-plugin-offline`,
   ],
 };
