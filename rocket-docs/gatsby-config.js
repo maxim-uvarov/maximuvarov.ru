@@ -10,6 +10,7 @@ module.exports = {
     siteLanguage: `ru`,
     themeColor: `#8257E6`,
     basePath: `/`,
+    trailingSlash: "always",
   },
   flags: { PRESERVE_WEBPACK_CACHE: true },
   plugins: [
@@ -79,13 +80,14 @@ module.exports = {
     },
   },
   `gatsby-plugin-react-helmet`,
-  {
-    resolve: `gatsby-plugin-react-helmet-canonical-urls`,
-    options: {
-      siteUrl: `https://maximuvarov.ru`,
-      noTrailingSlash: `true`,
-    },
-  },
+  // {
+  //   resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+  //   options: {
+  //     siteUrl: `https://maximuvarov.ru`,
+  //     noTrailingSlash: `false`,
+  //   },
+  // },
+  `gatsby-plugin-force-trailing-slashes`,
     // `gatsby-plugin-remove-trailing-slashes`,
     // {
     //   resolve: `gatsby-plugin-canonical-urls`,
@@ -93,6 +95,12 @@ module.exports = {
     //     siteUrl: `https://maximuvarov.ru`,
     //   },
     // },
-    `gatsby-plugin-offline`,
+  `gatsby-plugin-offline`,
+  // {
+  //   resolve: 'gatsby-plugin-offline',
+  //   options: {
+  //       navigateFallbackWhitelist: [/\/$/],
+  //   }
+  // },
   ],
 };
