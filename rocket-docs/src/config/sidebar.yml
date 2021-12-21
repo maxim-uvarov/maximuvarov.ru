@@ -4,6 +4,8 @@
   link: '/about/'
 - label: 'Список активностей'
   link: '/digest/'
+- label: 'Телеграм канал'
+  link: https://t.me/MaximUvarov
 # - label: 'Getting started'
 #   link: '/getting-started'
 # - label: Usage
@@ -22,5 +24,3 @@
 #   items:
     # - label: FAQ
     #   link: /faq
-- label: 'Телеграм канал'
-  link: https://t.me/MaximUvarov
